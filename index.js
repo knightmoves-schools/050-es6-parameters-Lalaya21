@@ -1,4 +1,4 @@
-function calculateTotal(subtotal, shipping + 2.50) {
+function calculateTotal(subtotal, shipping = 2.50) {
     return subtotal + shipping; 
 }
 function printTopThreeHeadlines(...headlines) {
